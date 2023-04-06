@@ -1,0 +1,15 @@
+<div class="card">
+    <div class="card-body">
+       <p>Tipo: {{formacion.tipo}}</p> 
+       <p> Descripción: {{formacion.descripcion}}</p> 
+       <ul class="list-group">
+          <li *ngFor = "let tec of formacion.tecnologias" class="list-group-item">
+                {{ tec.descripcion }}
+          </li>
+        </ul>
+
+    </div>
+  </div>
+
+
+

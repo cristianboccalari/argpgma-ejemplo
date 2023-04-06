@@ -1,0 +1,16 @@
+
+[
+
+ {
+  "id": "1",
+  "tipo": "curso",
+  "descripcion": "angular con typescript",
+  "tecnologias": [
+		{ "id": "1", "descripcion": "typescript"},
+		{ "id": "2", "descripcion": "html"},
+		{ "id": "3", "descripcion": "css"}
+		]
+  }
+
+  
+]  
